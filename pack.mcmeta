@@ -1,9 +1,15 @@
 ﻿{
 	"pack": {
-		"min_format": 71,
-		"max_format": [ 101, 1 ],
-		"pack_format": 81,
-		"supported_formats": [ 71, 81 ],
-		"description":"Better Mob Drop | 更好的生物掉落"
+		"min_format": 107,
+		"max_format": [
+			107,
+			1
+		],
+		"pack_format": 107,
+		"supported_formats": [
+			107,
+			107
+		],
+		"description": "Better Mob Drop | 更好的生物掉落"
 	}
 }
