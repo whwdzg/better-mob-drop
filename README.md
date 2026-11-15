@@ -22,9 +22,6 @@
 # Modrinth
 [https://modrinth.com/datapack/better-mob-drop](https://modrinth.com/datapack/better-mob-drop)
 
-# Modrinth(无进度版本)
-[https://modrinth.com/datapack/better-mob-drop-nav](https://modrinth.com/datapack/better-mob-drop-nav)
-
 # MCMOD
 [https://www.mcmod.cn/class/17769.html](https://www.mcmod.cn/class/17769.html)
 
@@ -33,6 +30,4 @@
    更好的生物掉落模组/数据包加载后，对应生物都可以合理地掉落对应物品！
 2. 那有哪些生物掉落被更改了?
    你可以在游戏中查看进度树，每种生物被击杀时都会点亮对应进度。（仅支持简体中文）
-3. NAV是什么版本?
-   NAV指的是无进度版本，如果你不是非常不喜欢数据包里的进度系统的话并不推荐使用NAV版本。
 
