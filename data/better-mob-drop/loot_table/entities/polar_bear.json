@@ -1,4 +1,4 @@
-{
+﻿{
   "type": "minecraft:entity",
   "pools": [
     {
@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -14,7 +14,7 @@
                 "max": 2.0,
                 "min": 1.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             },
             {
               "count": {
@@ -23,7 +23,7 @@
                 "min": 0.0
               },
               "enchantment": "minecraft:looting",
-              "function": "minecraft:enchanted_count_increase"
+              "type": "minecraft:enchanted_count_increase"
             }
           ],
           "name": "minecraft:leather"
@@ -36,14 +36,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "conditions": [
                 {
-                  "condition": "minecraft:any_of",
+                  "type": "minecraft:any_of",
                   "terms": [
                     {
-                      "condition": "minecraft:entity_properties",
+                      "type": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
                         "flags": {
@@ -52,7 +52,7 @@
                       }
                     },
                     {
-                      "condition": "minecraft:entity_properties",
+                      "type": "minecraft:entity_properties",
                       "entity": "direct_attacker",
                       "predicate": {
                         "equipment": {
@@ -71,7 +71,7 @@
                   ]
                 }
               ],
-              "function": "minecraft:furnace_smelt"
+              "type": "minecraft:furnace_smelt"
             },
             {
               "add": false,
@@ -80,7 +80,7 @@
                 "max": 2.0,
                 "min": 0.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             },
             {
               "count": {
@@ -89,7 +89,7 @@
                 "min": 0.0
               },
               "enchantment": "minecraft:looting",
-              "function": "minecraft:enchanted_count_increase"
+              "type": "minecraft:enchanted_count_increase"
             }
           ],
           "name": "minecraft:cod",
@@ -97,14 +97,14 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "conditions": [
                 {
-                  "condition": "minecraft:any_of",
+                  "type": "minecraft:any_of",
                   "terms": [
                     {
-                      "condition": "minecraft:entity_properties",
+                      "type": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
                         "flags": {
@@ -113,7 +113,7 @@
                       }
                     },
                     {
-                      "condition": "minecraft:entity_properties",
+                      "type": "minecraft:entity_properties",
                       "entity": "direct_attacker",
                       "predicate": {
                         "equipment": {
@@ -132,7 +132,7 @@
                   ]
                 }
               ],
-              "function": "minecraft:furnace_smelt"
+              "type": "minecraft:furnace_smelt"
             },
             {
               "add": false,
@@ -141,7 +141,7 @@
                 "max": 2.0,
                 "min": 0.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             },
             {
               "count": {
@@ -150,7 +150,7 @@
                 "min": 0.0
               },
               "enchantment": "minecraft:looting",
-              "function": "minecraft:enchanted_count_increase"
+              "type": "minecraft:enchanted_count_increase"
             }
           ],
           "name": "minecraft:salmon"
